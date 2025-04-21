@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        .image-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+
+        .ref-no {
+            position: absolute;
+            top: -29px;
+            left: 54px;
+            color: black;
+        }
+    </style>
+
+
+    <div style="max-width: 800px; margin: auto; padding: 30px; border: 1px solid #ddd;">
+
+        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div style="display: flex; align-items: flex-start; gap: 20px;">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#FF7050" width="60px">
+                    <path
+                        d="M4 19V6.2C4 5.0799 4 4.51984 4.21799 4.09202C4.40973 3.71569 4.71569 3.40973 5.09202 3.21799C5.51984 3 6.0799 3 7.2 3H16.8C17.9201 3 18.4802 3 18.908 3.21799C19.2843 3.40973 19.5903 3.71569 19.782 4.09202C20 4.51984 20 5.0799 20 6.2V17H6C4.89543 17 4 17.8954 4 19ZM4 19C4 20.1046 4.89543 21 6 21H20M9 7H15M9 11H15M19 17V21"
+                        stroke="#FF7050" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <div style="font-size: 14px; line-height: 1.4;">
+                    <p>ABC Institute Of Technology</p>
+                    <p>No 124/2, Galle Road, </p>
+                    <p>Mountlavinia</p>
+                    <p style="display: flex; gap: 30px; margin-top: 10px;"><span>Tel: 011 1231231</span> <span>Email:
+                            instituteABC@gmail.com</span></p>
+                </div>
+            </div>
+            <div class="image-wrapper">
+                <span class="ref-no">Ref No: 11573</span>
+                <img src="images/Capture.PNG" alt="" style="width: 10rem; height: 10rem; background-color: #ff8000;">
+            </div>
+        </div>
+
+        <h2 style="text-align: center; margin: 20px 0;">Student Registration Form</h2>
+
+        <div style="background-color: #ff9900; color: black; font-weight: bold; padding: 8px; margin-top: 30px; width: 75%;">・
+            Student Information</div>
+
+        <div style="display: flex; align-items: center; margin: 10px 0;">
+            <label style="font-weight: bold; width: 220px;">Full Name:</label>
+            <input type="text"
+                style="flex: 1; padding: 6px; border-radius: 4px; border: 1px solid #ccc; background-color: #EEEBE3;">
+        </div>
+
+        <div style="display: flex; align-items: center; margin: 10px 0;">
+            <label style="font-weight: bold; width: 220px;">Date of Birth:</label>
+            <input type="date"
+                style="flex: 1; padding: 6px; border-radius: 4px; border: 1px solid #ccc; background-color: #EEEBE3;">
+        </div>
+
+        <div style="display: flex; align-items: center; margin: 10px 0;">
+            <label style="font-weight: bold; width: 220px;">Gender:</label>
+            <div style="display: flex; gap: 20px;">
+                <label><input type="radio" name="gender"> Male</label>
+                <label><input type="radio" name="gender"> Female</label>
+            </div>
+        </div>
+
+        <div style="display: flex; align-items: center; margin: 10px 0;">
+            <label style="font-weight: bold; width: 220px;">Nationality:</label>
+            <input type="text"
+                style="flex: 1; padding: 6px; border-radius: 4px; border: 1px solid #ccc; background-color: #EEEBE3;">
+        </div>
+
+        <div style="display: flex; align-items: center; margin: 10px 0;">
+            <label style="font-weight: bold; width: 220px;">Contact Information:</label>
+            <input type="text"
+                style="flex: 1; padding: 6px; border-radius: 4px; border: 1px solid #ccc; background-color: #EEEBE3;">
+        </div>
+
+        <div style="background-color: #ff9900; color: black; font-weight: bold; padding: 8px; margin-top: 30px; width: 75%;">・
+            Parent/Guardian Information</div>
+
+        <div style="display: flex; align-items: center; margin: 10px 0; ">
+            <label style="font-weight: bold; width: 220px;">Parent/Guardian Name(s):</label>
+            <input type="text"
+                style="flex: 1; padding: 6px; border-radius: 4px; border: 1px solid #ccc; background-color: #EEEBE3;">
+        </div>
+
+        <div style="display: flex; align-items: center; margin: 10px 0;">
+            <label style="font-weight: bold; width: 220px;">Relationship to Student:</label>
+            <input type="text"
+                style="flex: 1; padding: 6px; border-radius: 4px; border: 1px solid #ccc; background-color: #EEEBE3;">
+        </div>
+
+        <div style="display: flex; align-items: center; margin: 10px 0;">
+            <label style="font-weight: bold; width: 220px;">Contact Info (Phone/Email):</label>
+            <input type="text"
+                style="flex: 1; padding: 6px; border-radius: 4px; border: 1px solid #ccc; background-color: #EEEBE3;">
+        </div>
+
+        <div style="display: flex; align-items: center; margin: 10px 0;">
+            <label style="font-weight: bold; width: 220px;">Emergency Contact Info:</label>
+            <input type="text"
+                style="flex: 1; padding: 6px; border-radius: 4px; border: 1px solid #ccc; background-color: #EEEBE3;">
+        </div>
+
+        <div style="background-color: #ff9900; color: black; font-weight: bold; padding: 8px; margin-top: 30px; width: 75%;">・
+            Education Information</div>
+
+        <div style="display: flex; align-items: center; margin: 10px 0;">
+            <label style="font-weight: bold; width: 220px;">School/Institution Name:</label>
+            <input type="text"
+                style="flex: 1; padding: 6px; border-radius: 4px; border: 1px solid #ccc; background-color: #EEEBE3;">
+        </div>
+
+        <div style="display: flex; align-items: center; margin: 10px 0;">
+            <label style="font-weight: bold; width: 220px;">Graduation Date:</label>
+            <input type="date"
+                style="flex: 1; padding: 6px; border-radius: 4px; border: 1px solid #ccc; background-color: #EEEBE3;">
+        </div>
+
+        <div style="display: flex; align-items: center; margin: 10px 0;">
+            <label style="font-weight: bold; width: 220px;">How did you hear about us?</label>
+            <input type="text"
+                style="flex: 1; padding: 6px; border-radius: 4px; border: 1px solid #ccc; background-color: #EEEBE3;">
+        </div>
+
+        <div style="display: flex; align-items: flex-start; margin: 10px 0;">
+            <label style="font-weight: bold; width: 220px;">Why are you interested?</label>
+            <textarea rows="2"
+                style="flex: 1; padding: 6px; border-radius: 4px; border: 1px solid #ccc; background-color: #EEEBE3;"></textarea>
+        </div>
+
+        <div style="font-weight: bold; margin-top: 20px; display: flex; align-items: center;">
+            <span style="margin-right: 20px;">Are you Agree to the terms and conditions of enrollment?</span>
+            <div style=" display: flex; gap: 25px;">
+            <button style="margin-left: 10px; font-size: 20px; cursor: pointer; border: none;">
+            <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path d="M7 0L5 5V14H14L16 8V5H10V2C10 0.895431 9.10457 0 8 0H7Z" fill="rgb(29, 162, 89)"></path>
+                  <path d="M3 5H0V14H3V5Z" fill="rgb(29, 162, 89)"></path>
+                </g>
+              </svg>
+            </button>
+              
+            <button style="margin-left: 10px; font-size: 20px; cursor: pointer; border: none;">
+                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24">
+                  <path d="M7 16L5 11V2H14L16 8V11H10V14C10 15.1046 9.10457 16 8 16H7Z" fill="#6D9AEF"></path>
+                  <path d="M3 11H0V2H3V11Z" fill="#6D9AEF"></path>
+                </svg>
+              </button>
+            </div>
+        </div>
+        <h6>Terms and Conditions</h6>
+
+        <div style="margin-top: 30px;">
+            Signature of the student and, if the student is a minor, a parent or guardian
+            <div style="height: 50px; width: 20%; background-color: #FFE8A4; margin-top: 20px;">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
